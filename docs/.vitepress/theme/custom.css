@@ -1,0 +1,95 @@
+:root {
+    --vp-c-brand: #9c27b0;
+    --vp-c-brand-light: #ba68c8;
+    --vp-c-brand-dark: #7b1fa2;
+    --vp-c-text-1: #333;
+    --vp-c-bg: #f9f9f9;
+  }
+  
+  .VPContent {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+
+  .VPNavBarMenuLink {
+    font-weight: 500;
+    color: var(--vp-c-text-1);
+    padding: 0 1rem;
+    transition: color 0.3s;
+  }
+  .VPNavBarMenuLink:hover {
+    color: var(--vp-c-brand);
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  .card h2 {
+    border-left: 4px solid var(--vp-c-brand);
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .skill-item {
+    margin: 1rem 0;
+  }
+  .skill-name {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .skill-bar {
+    height: 8px;
+    background: #eee;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .skill-progress {
+    height: 100%;
+    background: var(--vp-c-brand);
+    border-radius: 4px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+  }
+  th, td {
+    padding: 0.8rem;
+    border: 1px solid #eee;
+    text-align: left;
+  }
+  th {
+    background: #f5f5f5;
+    font-weight: 600;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  form input, form textarea {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  form button {
+    background: var(--vp-c-brand);
+    color: #fff;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  form button:hover {
+    background: var(--vp-c-brand-dark);
+  }
