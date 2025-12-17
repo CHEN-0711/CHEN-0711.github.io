@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.BQlYxExx.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/guide/configuration.md","filePath":"docs/guide/configuration.md"}'),a={name:"docs/guide/configuration.md"};function n(c,r,i,s,d,f){return o(),t("div")}const _=e(a,[["render",n]]);export{u as __pageData,_ as default};
